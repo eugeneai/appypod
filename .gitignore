@@ -101,4 +101,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
-/tests/infile/res*.odt
+/tests/output/*

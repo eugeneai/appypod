@@ -1,9 +1,10 @@
 from appy.pod.renderer import Renderer
 import os.path
 
-DIR = "tests/input"
-INFILE = os.path.join(DIR, "simple.odt")
-RESULT = os.path.join(DIR, "result.odt")
+INDIR = "tests/input"
+OUTDIR = "tests/output"
+INFILE = os.path.join(INDIR, "simple.odt")
+RESULT = os.path.join(OUTDIR, "result.odt")
 
 
 class TestsSimple:
